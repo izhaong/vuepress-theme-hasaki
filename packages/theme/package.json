@@ -2,7 +2,10 @@
   "name": "vuepress-theme-hasaki",
   "version": "1.0.0",
   "description": "vuepress主题 个人主页 笔记记录",
-  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc -b tsconfig.build.json"
+  },
+  "main": "lib/node/index.js",
   "files": [
     "lib"
   ],
@@ -13,13 +16,14 @@
     "vuepress-theme",
     "hasaki"
   ],
-  "devDependencies": {
+  "dependencies": {
+    "@vuepress/client": "^2.0.0-beta.38",
     "@vuepress/core": "^1.9.7",
     "@vuepress/plugin-active-header-links": "^2.0.0-beta.38",
     "@vuepress/plugin-git": "^2.0.0-beta.38",
     "@vuepress/plugin-palette": "^2.0.0-beta.38",
     "@vuepress/plugin-theme-data": "^2.0.0-beta.38",
     "@vuepress/plugin-toc": "^2.0.0-beta.38",
-    "@vuepress/utils": "^2.0.0-alpha.1"
+    "@vuepress/utils": "^2.0.0-beta.38"
   }
 }

@@ -1,7 +1,7 @@
 /*
  * @Author: 仲灏<izhaong@outlook.com>🌶🌶🌶
  * @Date: 2022-04-10 01:29:51
- * @LastEditTime: 2022-04-10 01:59:08
+ * @LastEditTime: 2022-04-10 02:52:44
  * @LastEditors: 仲灏<izhaong@outlook.com>🌶🌶🌶
  * @Description:
  * @FilePath: /vuepress-theme-hasaki/hasaki/lib/client/clientAppEnhance.ts
@@ -17,4 +17,3 @@ export default defineClientAppEnhance(({ app, router, siteData }) => {
     console.log("after navigation");
   });
 });
-
